@@ -1,0 +1,24 @@
+@use 'src/styles/vars';
+
+.header {
+  background-color: vars.$secondColor;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  h1 {
+    color: vars.$principalColor;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
+  nav {
+    align-self: center;
+
+    a {
+      color: vars.$altColor;
+      margin-right: 2rem;
+      text-transform: uppercase;
+    }
+  }
+}

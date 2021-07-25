@@ -2,13 +2,17 @@
 import React from 'react';
 
 // == Import
-// import reactLogo from './react-logo.svg';
-import './styles.scss';
+import './header.scss';
 
-// let's see header.scss to choose classnames - Delete 
+// let's see .scss to choose classnames - Delete classnames you don't want
 const Header = () => (
-    <header>
-
+    <header className="header">
+        <h1><a href="#">Title</a></h1>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Content</a>
+            <a href="#">Join Us</a>
+        </nav>
     </header>
 )
 
